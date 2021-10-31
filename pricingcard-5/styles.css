@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    width: 1600px;
+    height: 1200px;
+    left: 0px;
+    top: 0px;
+    background: #F5F8FF;
+}
+span{
+    font-size: 32px;
+}
+.elipse1{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    left: -130px;
+    top: 316px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(237, 187, 255, 0.6) 0%, rgba(237, 187, 255, 0) 100%);
+}
+.elipse2{
+    position: absolute;
+    width: 528px;
+    height: 528px;
+    left: 396px;
+    top: 18px;
+    background: radial-gradient(50% 50% at 50% 50%, #C6FCFF 0%, rgba(198, 252, 255, 0) 100%);
+}
+.elipse3{
+    position: absolute;
+    width: 624px;
+    height: 624px;
+    left: 923px;
+    top: 169px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFDDB6 0%, rgba(255, 221, 182, 0) 100%);
+}
+.cards-container{
+    position: absolute;
+    width: 1098px;
+    height: 544px;
+    left: 280px;
+    top: 306px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 20px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.card1{
+    width: 276px;
+    height: 364px;
+    padding: 60px;
+}
+.title1{
+    width: 62px;
+    height: 32px;
+    left: 370px;
+    top: 396px;
+}
+.title_free{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #141843;
+}
+.price0{
+    width: 38px;
+    height: 81px;
+    margin-top: 20px;
+}
+.price1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 81px;
+    color: #141843;
+}
+.plan1{
+    width: 191px;
+    height: 21px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #141843;
+}
+.parapraph1{
+    width: 276px;
+    height: 78px;
+    margin-top: 90px;
+}
+.paragraph-1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #141843;
+}
+.btn1{
+    display: flex;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.btn_now{
+    width: 181px;
+    height: 66px;
+    left: 370px;
+    top: 694px;
+    background: #FC4E8C;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    border: none;
+}
+.card2{
+    width: 276px;
+    height: 364px;
+    padding: 60px;
+}
+.title2{
+    width: 62px;
+    height: 32px;
+    left: 370px;
+    top: 396px;
+}
+.title_standard{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #141843;
+}
+.price12{
+    width: 38px;
+    height: 81px;
+    margin-top: 20px;
+}
+.price2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 81px;
+    color: #141843;
+}
+.plan2{
+    width: 191px;
+    height: 21px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #141843;
+}
+.parapraph2{
+    width: 276px;
+    height: 78px;
+    margin-top: 90px;
+}
+.paragraph-2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #141843;
+}
+.btn2{
+    display: flex;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.btn-contract{
+    width: 128px;
+    height: 66px;
+    left: 370px;
+    top: 694px;
+    background: #09E1EF;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    border: none;
+}
+.card3{
+    width: 276px;
+    height: 364px;
+    padding: 60px;
+    margin-right: 100px;
+}
+.title3{
+    width: 62px;
+    height: 32px;
+    left: 370px;
+    top: 396px;
+}
+.title_premium{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #141843;
+}
+.price35{
+    width: 38px;
+    height: 81px;
+    margin-top: 20px;
+}
+.price3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 81px;
+    color: #141843;
+}
+.plan3{
+    width: 191px;
+    height: 21px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #141843;
+}
+.parapraph3{
+    width: 276px;
+    height: 78px;
+    margin-top: 90px;
+}
+.paragraph-3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #141843;
+}
+.btn3{
+    display: flex;
+    padding-top: 20px;
+    width: 186px;
+}
+.btn-free{
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    border: none;
+    width: 186px;
+    height: 66px;
+}
