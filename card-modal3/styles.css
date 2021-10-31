@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    position: absolute;
+    width: 1600px;
+    height: 1200px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+}
+.grid-container{
+    position: absolute;
+    width: 859px;
+    height: 928px;
+    left: 370px;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 45px -10px rgba(88, 124, 176, 0.18);
+    border-radius: 20px;
+    grid-template-rows: 125px 210px 245px 245px 100px;
+}
+.header{
+    width: 859px;
+    height: 125px;
+    left: 370px;
+    top: 77px;
+    background: #203774;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    width: 292px;
+    height: 45px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.cancel{
+    width: 42px;
+    height: 42px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.date{
+    width: 859px;
+    height: 200px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    justify-content: center;
+    align-items: center;
+}
+.dateandday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.arrowleft{
+    width: 30px;
+    height: 30px;
+    transform: matrix(-1, 0, 0, 1, 270, 0);
+}
+.arrowright{
+    width: 30px;
+    height: 30px;
+    transform: matrix(1, 0, 0, 1, 40, 0);
+}
+.datenumber{
+    width: 131px;
+    height: 45px;
+    left: 734px;
+    top: 251px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color: #0F131C;
+}
+.day{
+    width: 33px;
+    height: 23px;
+    left: 783px;
+    top: 311px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0F131C;
+}
+.card-dra{
+    width: 524px;
+    height: 245px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background: #203774;
+    box-shadow: 0px 12px 27px -11px rgba(0, 42, 152, 0.46);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.odontology1{
+    width: 162px;
+    height: 33px;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.time1{
+    width: 128px;
+    height: 23px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.pic-dra{
+    border: 3px solid #4868BD;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.name-dra{
+    width: 138px;
+    height: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.pic-name{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.button{
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+.button1{
+    position: absolute;
+    width: 153px;
+    height: 53px;
+    margin-left: -50px;
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+.card-dr{
+    width: 524px;
+    height: 245px;
+    margin-top: 20px;
+    margin-left: 160px;
+    background: #203774;
+    box-shadow: 0px 12px 27px -11px rgba(0, 42, 152, 0.46);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.odontology2{
+    width: 162px;
+    height: 33px;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.time2{
+    width: 128px;
+    height: 23px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.pic-dr{
+    border: 3px solid #4868BD;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.name-dr{
+    width: 138px;
+    height: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.pic-name2{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.buttondr{
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+.buttondr2{
+    position: absolute;
+    width: 153px;
+    height: 53px;
+    margin-left: -50px;
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+
