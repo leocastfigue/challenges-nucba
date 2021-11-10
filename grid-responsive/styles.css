@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-flow: dense; */
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+}
+img{
+    width: 18rem;
+    height: 18rem;
+    border: 1px solid #b3f8ef;
+    border-radius: 10px;
+}
+.jony{
+    grid-column: span 2;
+}
