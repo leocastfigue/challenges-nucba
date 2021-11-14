@@ -1,0 +1,109 @@
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --Kumbh-Sans: 'Kumbh Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--Dark-cyan);
+    background-image: url(./profile-card-component-main/images/bg-pattern-top.svg), url(./profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -600px left -770px, bottom -600px right -770px;
+    font-family: var(--Kumbh-Sans);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 340px;
+    background: #FEFEFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.header{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(./profile-card-component-main/images/bg-pattern-card.svg);
+    min-height: 142px;
+    z-index: 1;
+}
+.section{
+    width: 100%;
+    background: #fff;
+    min-height: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    z-index: 1;
+    position: relative;
+    top: -50px;
+    left: 0px; 
+    border: 5px solid #FEFEFF;
+    background-color: #FEFEFF;
+    border-radius: 50%;
+}
+.london{
+    letter-spacing: 1px;
+    margin-top: -30px;
+}
+span{
+    color: var(--Dark-gray); 
+}
+#number{
+    position: relative;
+    left: 10px;
+}
+.name {
+    position: relative;
+    top: -40px;
+    font-weight: 900;
+}
+.footer{
+    width: 100%;
+    border-top: .2px solid var(--Dark-gray);
+    background: #fff;
+    border-radius: 0px 0px 20px 20px;
+    min-height: 56px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}  
+.title{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtitle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: var(--Dark-gray);
+    font-size: 12px;
+    position: relative;
+    left: -10px;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+.photos{
+    margin-right: -10px;
+}
